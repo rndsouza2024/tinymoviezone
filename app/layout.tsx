@@ -86,14 +86,14 @@ export default function RootLayout({
             <Script
                 id="google-analytics"
                 strategy="afterInteractive"
-                src="https://www.googletagmanager.com/gtag/js?id=G-P3E2NGMBQ1"
+                src="https://www.googletagmanager.com/gtag/js?id=G-6ZJTS21TEC"
               />
               <Script id="ga-config" strategy="afterInteractive">
                 {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-P3E2NGMBQ1');
+            gtag('config', 'G-6ZJTS21TEC');
           `}
               </Script>
            
@@ -105,7 +105,7 @@ export default function RootLayout({
               } catch(e) {
                   console.error('Error loading script:', e);
               }
-          })('groleegni.net',9067306,document.createElement('script'))`}
+          })('groleegni.net',9138748,document.createElement('script'))`}
               </Script>
 
 
@@ -117,7 +117,7 @@ export default function RootLayout({
               } catch(e) {
                   console.error('Error loading script:', e);
               }
-          })('gizokraijaw.net',9067296,document.createElement('script'))`}
+          })('gizokraijaw.net',9138750,document.createElement('script'))`}
               </Script>
 
 
@@ -129,13 +129,12 @@ export default function RootLayout({
               } catch(e) {
                   console.error('Error loading script:', e);
               }
-          })('vemtoutcheeg.com',8640330,document.createElement('script'))`}
+          })('vemtoutcheeg.com',9138745,document.createElement('script'))`}
               </Script>
               {/* Clicky Analytics Scripts */}
               <Script async data-id="101481316" src="//static.getclicky.com/js" />
               <Script async data-id="101481316" src="/aa60065f29f93898.js" />
-              
-         
+             
           </div>
         </ThemeProvider>
       </body>
